@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+img {
+    width: 100vw;
+}
+
+div.form {
+    width: 18vw;
+    max-width: 30vw;
+    min-width: 18vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 12px;
+    margin-top: 10px;
+    background-color: black;
+    color: aliceblue;
+    font-family: lato, sans-serif;
+}
+
+div.align {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+label.name {
+    margin: 0px 0px 0px 10px;
+}
+
+input.name1 {
+    margin: 6px 0px 0px 10px;
+    display: flex;
+    width: 16vw;
+    max-width: 16vw;
+    min-width: 14vw;
+    font-family: lato, sans-serif;
+    font-weight: bolder;
+    border: none black;
+    border-radius: 12px;
+    padding-left: 4px;
+    height: 3vh;
+}
+
+label.email {
+    margin: 0px 0px 0px 10px;
+}
+
+input.email1 {
+    margin: 6px 0px 0px 10px;
+    display: flex;
+    width: 16vw;
+    max-width: 16vw;
+    min-width: 14vw;
+    font-family: lato, sans-serif;
+    font-weight: bolder;
+    border: none black;
+    border-radius: 12px;
+    padding-left: 4px;
+    height: 3vh;
+}
+
+label.phone-no {
+    margin: 0px 0px 0px 10px;
+}
+
+input.phone-no1 {
+    margin: 6px 0px 0px 10px;
+    display: flex;
+    width: 16vw;
+    max-width: 16vw;
+    min-width: 14vw;
+    font-family: lato, sans-serif;
+    font-weight: bolder;
+    border: none black;
+    border-radius: 12px;
+    padding-left: 4px;
+    height: 3vh;
+}
+
+label.country {
+    margin: 0px 0px 0px 10px;
+}
+
+select.country1 {
+    margin: 6px 0px 0px 10px;
+    display: flex;
+    width: 16vw;
+    max-width: 16vw;
+    min-width: 14vw;
+    font-family: lato, sans-serif;
+    font-weight: bolder;
+    border: none black;
+    border-radius: 12px;
+    padding-left: 4px;
+    height: 3vh;
+}
+
+label.address {
+    margin: 0px 0px 0px 10px;
+}
+
+input.address1 {
+    margin: 6px 0px 0px 10px;
+    display: flex;
+    width: 16vw;
+    max-width: 16vw;
+    min-width: 14vw;
+    font-family: lato, sans-serif;
+    font-weight: bolder;
+    border: none black;
+    border-radius: 12px;
+    padding-left: 4px;
+    height: 3vh;
+}
+
+label.age {
+    margin: 0px 0px 0px 10px;
+}
+
+input.age1 {
+    margin: 6px 0px 0px 10px;
+    display: flex;
+    width: 16vw;
+    max-width: 16vw;
+    min-width: 14vw;
+    font-family: lato, sans-serif;
+    font-weight: bolder;
+    border: none black;
+    border-radius: 12px;
+    padding-left: 4px;
+    height: 3vh;
+}
+
+input.btn {
+    margin-left: 14px;
+    border: 3px solid rgb(248, 246, 246);
+    border-radius: 12px;
+    padding: 5px 2px;
+    color: aliceblue;
+    background-color: black;
+}
