@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+     <!-- <meta favicon="/Users/macfat/Downloads/favicon.ico"> -->
+     <!-- I do not understand how to create favicon -->
+     <!-- <meta> -->
+     <!-- <favicon url="/Users/macfat/Downloads/HTML Notes/Chapter 5/favicon.ico"> -->
+     <!-- </favicon> -->
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Form</title>
+     <style>
+          body {
+               background-color: royalblue;
+          }
+
+          .pop {
+               border-style: solid;
+               border-color: rgb(253, 251, 251);
+               border-width: 2px;
+               margin-right: 21%;
+               margin-left: 17%;
+               margin-top: 5%;
+               background-color: azure;
+               border-radius: 5px;
+               font-style: initial;
+
+          }
+
+          .m:hover {
+               align-items: top;
+          }
+
+          .h1 {
+               text-underline-position: below;
+               font-style: initial;
+               font-size: large;
+          }
+
+          .h2 {
+               opacity: 0.5;
+               text-decoration-color: black;
+               font-size: medium;
+          }
+
+          label {
+               font-size: small;
+               font-weight: bold;
+               color: royalblue;
+          }
+
+          label:hover {
+               color: black;
+          }
+
+          input.a:hover {
+               border: solid;
+               border-color: blue;
+               border-width: 2px;
+               border-radius: 5px;
+
+          }
+
+          input.b:hover {
+               border: solid;
+               border-color: green;
+               border-width: 2px;
+               border-radius: 5px;
+
+          }
+
+          .mop {
+               padding: 8px;
+               background-color: azure;
+               border-style: solid;
+               border-radius: 3px;
+               border-color: rgb(118, 118, 116);
+               border-width: 1px;
+               width: 180px;
+               font-size: small;
+          }
+
+          .job {
+               color: rgb(250, 250, 251);
+               background-color: royalblue;
+               padding-top: 9px;
+               padding-bottom: 9px;
+               padding-right: 75px;
+               padding-left: 75px;
+               border-style: solid;
+               border-radius: 4px;
+               border-color: azure;
+               border-width: 1px;
+               text-decoration: none;
+               /* text-underline-position: calc(); */
+               /* I do not understand this property */
+          }
+
+          .png:hover {
+               font-size: large;
+               background-color: black;
+               border: 4px solid rgb(252, 19, 2);
+
+          }
+     </style>
+
+</head>
+
+<body>
+     <div class="pop m">
+          <div>
+               <h2 class="h1">&ensp;&ensp; Registration&nbsp;</h2>
+          </div>
+          <div>
+               <h3 class="h2">&ensp;&ensp; Personal&nbsp;Details</h3>
+          </div>
+          <div>
+               <form>
+                    <div>
+                         <div>
+                              &ensp;&ensp;&ensp;<label for="Full name">Full Name
+                              </label>&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&nbsp;
+                              <label for="Date of Birth">Date of
+                                   Birth</label>&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&nbsp;
+                              <label
+                                   for="email">Email</label>&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
+                         </div><br>
+                         <div>
+                              &ensp;&ensp;&ensp;
+                              <input class="mop a" type="text" name="Full Name"
+                                   placeholder="Enter your name">&ensp;&ensp;
+                              <input class="mop a" type="text" name="Date of Birth"
+                                   placeholder="Enter birth date">&ensp;&ensp;&ensp;&ensp;
+                              <input class="mop a" type="email" name="email" placeholder="Enter your email">
+                         </div><br>
+                         <div>
+                              &ensp;&ensp;&ensp;<label for="mobile number">Mobile
+                                   Number</label>&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
+                              <label
+                                   for="Gender">Gander</label>&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&nbsp;&ensp;&ensp;&ensp;&ensp;
+                              <label
+                                   for="Occupation">Occupation</label>&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
+                         </div><br>
+                         <div>
+                              &ensp;&ensp;&ensp;<input class="mop a" type="number" name="Mobile Number"
+                                   placeholder="Enter mobile number">&ensp;&ensp;
+                              <input class="mop a" type="gender" name="Gender"
+                                   placeholder="Enter your gender">&ensp;&ensp;&ensp;&ensp;
+                              <input class="mop a" type="text" name="Occupation" placeholder="Enter occupation">
+                         </div><br>
+                         <div>
+                              <h3 class="h2">&ensp;&ensp; Identity&nbsp;Details</h3>
+                         </div>
+                         <div>
+                              &ensp;&ensp;&ensp;<label for="ID Type">ID
+                                   Type</label>&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
+                              <label for="ID Number">ID
+                                   Number</label>&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
+                              <label for="Issue Authority">Issue
+                                   Authority</label>&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
+                         </div><br>
+                         <div>
+                              &ensp;&ensp;&ensp;<input class="mop b" type="text" name="ID Type"
+                                   placeholder="Enter ID Type">&ensp;&ensp;
+                              <input class="mop b" type="number" name="ID Number"
+                                   placeholder="Enter ID Number">&ensp;&ensp;&ensp;&ensp;
+                              <input class="mop b" type="text" name="Issue Authority"
+                                   placeholder="Enter Issue department">
+                         </div><br>
+                         <div>
+                              &ensp;&ensp;&ensp;<label for="Issue Date">Issue
+                                   Date</label>&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
+                              <label for="Issue State">Issue
+                                   State</label>&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
+                              <label for="Expiry Date">Expiry
+                                   Date</label>&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
+                         </div><br>
+                         <div>
+                              &ensp;&ensp;&ensp;<input class="mop b" type="text" name="Issue Date"
+                                   placeholder="Enter ID Issue Date">&ensp;&ensp;
+                              <input class="mop b" type="text" name="Issue State"
+                                   placeholder="Enter ID Issue State ">&ensp;&ensp;&ensp;&ensp;
+                              <input class="mop b" type="text" name="Expiry Date" placeholder="Enter ID Expiry Date">
+                         </div><br>
+                         <div>
+                              &ensp;&ensp;&ensp;<a href="https://amphersoft.com" target="_blank"><input class="job png"
+                                        type="submit" name="Next ->" value="Next - - ->"></submit></a><br><br>
+                         </div>
+                         <div>
+                         </div>
+               </form>
+
+          </div>
+</body>
+
+</html>
