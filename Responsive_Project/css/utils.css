@@ -1,0 +1,47 @@
+.all-text{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-family: "Lato", sans-serif;
+}
+.img-radius{
+    border: 2px solid black;
+    border-radius: 100%;
+}
+.search{
+    display: flex;
+    align-items: center;
+}
+.slider{
+    width: 76vw;
+    margin: 0 0;
+}
+.radii{
+    border: 0px solid rgb(251, 250, 250);
+    width: 100vw;
+    height: 50vh;
+}
+.radiii{
+    border: 0px solid rgb(251, 250, 250);
+    border-radius: 99px;
+    width: 19vw;
+}
+.cart{
+    max-width: 100vw;
+    margin:0 20px 0 20px;
+}
+.cart h3 {
+    font-family: "Lato", sans-serif;
+    padding: 20px 0;
+    text-align: center;
+}
+.cart p {
+    font-family: "Lato", sans-serif;
+    text-align: center;
+    padding: 5px 0 5px 0;
+}
+.cart-item{
+    display: inline-flex;
+    flex-direction: column;
+    margin: 2px 0px 2px 0px;
+}
