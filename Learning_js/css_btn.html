@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8" />
+     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+     <title>css button</title>
+     <style>
+          html {
+               background-color: black;
+          }
+
+          #main_div {
+               display: none;
+          }
+
+          .for_btn {
+               display: flex;
+               flex-direction: row;
+               justify-content: center;
+               align-items: center;
+          }
+
+          #main_btn {
+               background-color: crimson;
+               color: aliceblue;
+               border-radius: 30px;
+               border-color: black;
+               box-shadow: 2px 2px 20px crimson;
+               padding: 10px 20px;
+          }
+
+          #main_btn:hover {
+               background-color: darkcyan;
+               box-shadow: 2px 2px 20px darkcyan;
+          }
+
+          span {
+               text-shadow: 3px 3px black;
+               font-size: large;
+               text-transform: uppercase;
+               font-weight: bold;
+          }
+
+          body {
+               color: aliceblue;
+          }
+
+          .for_pow {
+               display: flex;
+               flex-direction: column;
+               justify-content: center;
+               margin: auto;
+          }
+
+          .form {
+               border: 3px solid crimson;
+               box-shadow: 2px 2px 20px crimson;
+               display: flex;
+               flex-direction: column;
+               justify-content: center;
+               align-items: center;
+               margin: auto;
+          }
+
+          .form:hover {
+               border: 3px solid darkcyan;
+               box-shadow: 2px 2px 20px darkcyan;
+          }
+
+          input {
+               background-color: white;
+               margin: 10px 0px;
+               padding: 5px 0px;
+               border-radius: 8px;
+               border-radius: 1px solid crimson;
+               box-shadow: 2px 2px 20px crimson;
+          }
+
+          input:hover {
+               border-radius: 1px solid darkcyan;
+               box-shadow: 2px 2px 20px darkcyan;
+          }
+
+          form {
+               padding: 10px 15px;
+          }
+
+          #submit_button {
+               border-radius: 1px solid crimson;
+               box-shadow: 2px 2px 20px crimson;
+               text-align: center;
+               padding: 2px 5px;
+               color: aliceblue;
+               background-color: crimson;
+          }
+
+          #submit_button:hover {
+               border-radius: 1px solid darkcyan;
+               box-shadow: 2px 2px 20px darkcyan;
+               background-color: darkcyan;
+          }
+
+          #result {
+               color: aliceblue;
+               font-size: large;
+               font-weight: 700;
+          }
+
+          #result {
+               padding: 10px 0px;
+               display: flex;
+               flex-direction: column;
+               justify-content: center;
+               align-items: center;
+               margin: auto;
+          }
+
+          hr {
+               background-color: aliceblue;
+               width: 90px;
+          }
+     </style>
+</head>
+
+<body>
+     <div class="for_btn">
+          <button id="main_btn" onclick="css_click_btn()">
+               <span>Click!</span>
+          </button>
+          <button id="main_btn" onclick="css_back_btn()">
+               <span>Back!</span>
+          </button>
+     </div>
+     <div id="main_div">
+          <br>
+          <hr>
+          <div class="for_pow">
+               <p>If you want to enter a base and an exponent, we shall calculate the answer for you.</p>
+               <button id="main_btn" onclick="pow()">
+                    <span>Enter to Backend</span>
+               </button>
+          </div>
+          <br>
+          <div class="form">
+               <form>
+                    <label for="Base">Enter Base :</label><br>
+                    <input id="Base" type="number" placeholder=" Enter Base"><br>
+                    <label for="Exponent">Enter Exponent :</label><br>
+                    <input id="Exponent" type="number" placeholder=" Enter Exponent"><br>
+                    <input onclick="inputer()" id="submit_button" class="submit_btn" type="button" value="Submit">
+               </form>
+          </div>
+          <p id="result"></p>
+     </div>
+     <script>
+          function css_click_btn() {
+               document.getElementById("main_div").style.display = "flex"
+               document.getElementById("main_div").style.flexDirection = "column"
+          }
+          function css_back_btn() {
+               document.getElementById("main_div").style.display = "none"
+          }
+
+          function pow() {
+               function pow_function(base, expo) {
+                    let pow = 1
+                    for (let i = 1; i <= expo; i++) {
+                         pow = pow
+                              * base
+                    }
+                    return pow
+               }
+               let num = parseInt(prompt("Enter base: "))
+               let exponent = parseInt(prompt("Enter exponent: "))
+
+               let pow1 = pow_function(num, exponent)
+
+               console.log("The base = " + num)
+               console.log("The exponent = " + exponent)
+               console.log("The answer is " + pow1)
+               alert("The answer is " + pow1)
+          }
+          function inputer() {
+               let Base = document.getElementById("Base").value
+               let Exponent = document.getElementById("Exponent").value
+               let ans = 1
+               for (let i = 1; i <= Exponent; i++) {
+                    ans = ans * Base
+               }
+               console.log("Base:" + Base)
+               console.log("Exponent:" + Exponent)
+               console.log("Answer: " + ans)
+               document.getElementById("result").innerHTML = "Answer : " + ans
+          }
+     </script>
+</body>
+
+</html>
