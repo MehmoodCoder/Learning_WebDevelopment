@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Vowel and Element Counter</title>
+     <style>
+          @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+
+          html {
+               font-style: oblique;
+               font-family: "EB Garamond", serif;
+          }
+
+          .main {
+               display: flex;
+               flex-direction: column;
+               justify-content: center;
+               align-items: center;
+          }
+
+          form {
+               border: solid black 2px;
+               border-radius: 30px;
+               padding: 30px;
+          }
+
+          textarea {
+               resize: none;
+               border-radius: 20px;
+               padding: 15px 10px 0px;
+          }
+
+          textarea:hover {
+               background-color: black;
+               color: #FFFFFF;
+               border-color: #FFFFFF;
+          }
+
+          textarea::placeholder {
+               color: #000;
+               font-style: oblique;
+               font-family: "EB Garamond", serif;
+          }
+
+          textarea:hover::placeholder {
+               color: #FFFFFF;
+          }
+
+          button {
+               border: none;
+               border-radius: 20px;
+               background-color: #FFFFFF;
+               text-align: center;
+               margin: auto;
+               display: block;
+               padding: 5px 15px;
+               font-style: oblique;
+               font-family: "EB Garamond", serif;
+          }
+
+          button:hover {
+               background-color: black;
+               border-color: #FFFFFF;
+               color: #FFFFFF;
+          }
+
+          label:hover {
+               font-weight: 700;
+          }
+
+          /* responsive css */
+
+          @media (max-width: 480px) {
+               h1{
+                    font-size: x-large;
+               }
+          }
+     </style>
+</head>
+
+<body>
+     <div class="main">
+          <h1>Vowel and Element Counter</h1>
+          <p>Submit string to see the output.</p>
+          <form>
+               <label for="text">Enter String :</label><br><br>
+               <textarea name="text" id="string" placeholder="     Enter String "></textarea><br><br>
+               <button type="button" onclick="countVowels()">Submit</button>
+               <b>
+                    <p id="heading"></p>
+               </b>
+               <p id="output"></p>
+          </form>
+     </div>
+     <script src="sample_of_for_of_loop.js"></script>
+</body>
+
+</html>
