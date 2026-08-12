@@ -4,7 +4,6 @@ function validateForm() {
   let phone = document.getElementById("phone-no").value;
   let country = document.querySelector(".country1").value;
   // confusion 6 clear successfully
-  // ye sub select kar sacta ha id , class , tag , attribute
   let address = document.getElementById("address").value;
   let age = document.getElementById("age").value;
 
@@ -23,20 +22,12 @@ function validateForm() {
   }
 
   //confusion 1 clear successfully
-  //charAt letter to pick karta ha or (0) is ko btata ha ke kon sa letter pick karna ha 0 = first letter
 
   let firstLetter = name.charAt(0);
   console.log("First letter of Name:", firstLetter);
 
   if (firstLetter !== firstLetter.toUpperCase()) {
     //confusion 5 clear successfully
-    // ye condition meine isliye lagaye ha take aghar first letter is se match kar jaye
-    //  === to ye true ho gaye warna ni
-    // firstLetter !== firstLetter.toUpperCase() is ka kaam ha ke first letter variable
-    // ko check kar ke btaye ke true ha ke false
-    // aghar true to is ka mutlab ha first letter jo user ne likha wo capital ha
-    // aghar capital ni ho ga to false ho jaye ga or alert dekhaye ga
-    // alert("First letter of Name must be capital.");
 
     alert("First letter of Name must be capital.");
     console.log("Name first letter is not capital");
@@ -50,13 +41,11 @@ function validateForm() {
     return false;
   } else if (!email.includes("@")) {
     //confusion 2 clear successfully
-    // is ka mutlab ha ke aghar email @ ha to wo true hota aghar ! ye na likha hota
     alert("Invalid Email format!");
     console.log("Email does not contain @");
     return false;
   }
 
-  // 3️⃣ Phone number check (+92 se start aur 10 digits baad)
   if (phone === "") {
     alert("Phone number is required!");
     console.log("Phone is empty");
@@ -64,7 +53,6 @@ function validateForm() {
   }
   if (!phone.startsWith("+92")) {
     //confusion 3 clear successfully
-    // ye bhi same upper wale confusion ki tarah ha bus property change ha
     alert("Phone number must start with +92");
     console.log("Phone does not start with +92");
     return false;
