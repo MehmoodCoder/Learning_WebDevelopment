@@ -30,6 +30,82 @@ Welcome to my personal Web Development repository! This repository tracks my lea
 
 ---
 
+## 📂 Project Directory Structure
+
+**Generated:** 8/12/2026, 3:15:09 PM
+**Root Path:** `workspace\Learning_WebDevelopment`
+
+```
+├── 📁 Learning_js
+│   ├── 📁 console_program
+│   │   ├── 📄 Q1.js
+│   │   ├── 📄 combine_star.js
+│   │   ├── 📄 opposite_star.js
+│   │   └── 📄 star.js
+│   ├── 🌐 Q2.html
+│   ├── 🌐 bill.html
+│   ├── 📄 bill.js
+│   ├── 🌐 css_btn.html
+│   ├── 📄 operators_learning.js
+│   ├── 🌐 sample_of_for_of_loop.html
+│   └── 📄 sample_of_for_of_loop.js
+├── 📁 Learning_withHarry_JS
+│   ├── 📁 Code
+│   │   ├── 📄 choice.js
+│   │   ├── 📄 for_in_loop.js
+│   │   ├── 📄 for_of_loop.js
+│   │   ├── 🌐 for_of_loop_program.html
+│   │   ├── 📄 for_of_loop_program.js
+│   │   └── 📄 inc_dec.js
+│   └── 📁 Practice
+│       ├── 📄 ch1.js
+│       └── 📄 ch2.js
+├── 📁 Responsive_Project
+│   ├── 📁 css
+│   │   ├── 🎨 responsive.css
+│   │   ├── 🎨 style.css
+│   │   └── 🎨 utils.css
+│   ├── 📁 html
+│   │   └── 🌐 MH_BRAND_Web_site.html
+│   └── 📁 img
+│       ├── 🖼️ 1-MH-BRAND-2.png
+│       ├── 🖼️ MH-BRAND-Blue.jpg
+│       ├── 🖼️ MH-BRAND-DarkPink.png
+│       ├── 🖼️ MH-BRAND-Golden.png
+│       ├── 🖼️ MH-BRAND-Green.jpg
+│       ├── 🖼️ MH-BRAND-LOGO.png
+│       ├── 🖼️ MH-BRAND-LightGreen.png
+│       ├── 🖼️ MH-BRAND-LightPink.png
+│       ├── 🖼️ MH-BRAND-Purple.png
+│       ├── 🖼️ MH-BRAND-Red.jpg
+│       ├── 🖼️ MH-BRAND-Yellow-2.png
+│       ├── 🖼️ MH-BRAND-Yellow.jpg
+│       └── 🖼️ MH-BRAND-first-perfume02.png
+├── 📁 css
+│   └── 🎨 js.css
+├── 📁 html
+│   ├── 📁 Map_Img
+│   │   ├── 🌐 index.html
+│   │   ├── 🌐 laptop.html
+│   │   └── 🌐 mobile.html
+│   ├── 🌐 First_css_line_in_html.html
+│   ├── 🌐 form.html
+│   ├── 🌐 form_learning.html
+│   ├── 🌐 html_css_test.html
+│   └── 🌐 js.html
+├── 📁 img
+│   ├── 🖼️ 1-MH-BRAND.png
+│   ├── 🖼️ 2-MH-BRAND.jpg
+│   ├── 🖼️ 3-MH-BRAND.png
+│   ├── 🖼️ first_fragrance.jpg
+│   └── 🖼️ hello.png
+├── 📁 js
+│   └── 📄 if_else_project.js
+└── 📝 README.md
+```
+
+---
+
 ## 👤 Author
 
 **MehmoodCoder**
