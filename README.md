@@ -6,12 +6,15 @@ Welcome to my personal Web Development repository! This repository tracks my lea
 
 ## 📁 Repository Structure
 
-* **`html/`**: Contains core HTML practice files, form exercises, and mini-projects like Image Maps (`Map_Img/`).
-* **`css/`**: Styling sheets and experimental CSS files.
+* **`html/`**: Core HTML practice files, form exercises, and specialized topic folders:
+  * **`API/`**, **`Canvas/`**, **`Plugins/`**, **`Video/`**, and **`Youtube_Videos_In_HTML/`**: Mini-modules for media and web APIs.
+  * **`Map_Img/`**: Practice files for HTML Image Maps (`laptop.html`, `mobile.html`).
+* **`css/`**: Styling sheets and experimental CSS files (`js.css`).
 * **`js/`**: Core JavaScript logic and decision-making scripts (`if_else_project.js`).
-* **`Responsive_Project/`**: A full responsive brand website (`MH_BRAND_Web_site.html`) featuring customized CSS utilities and product image assets.
-* **`Learning_js/`**: Practice tasks covering loops, bill calculations, operators, and console-based star patterns.
-* **`Learning_withHarry_JS/`**: Structured code exercises, loop programs, and chapter-wise JS practice files.
+* **`img/`**: Global image assets including product previews and fragrance branding images.
+* **`Responsive_Project/`**: Full responsive brand site (`MH_BRAND_Web_site.html`) structured with dedicated `css/`, `html/`, and `img/` directories containing brand variants.
+* **`Learning_js/`**: Practice scripts covering operators, bill calculations, `for...of` loops, and console star patterns inside `console_program/`.
+* **`Learning_withHarry_JS/`**: Structured JavaScript learning organized into code exercises (`Code/`) and chapter-wise practice tasks (`Practice/` like `ch1.js`, `ch2.js`).
 
 ---
 
