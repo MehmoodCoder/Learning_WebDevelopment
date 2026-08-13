@@ -32,7 +32,7 @@ Welcome to my personal Web Development repository! This repository tracks my lea
 
 ## 📂 Project Directory Structure
 
-**Generated:** 8/12/2026, 3:15:09 PM
+**Generated:** 8/13/2026, 10:09:02 AM
 **Root Path:** `workspace\Learning_WebDevelopment`
 
 ```
@@ -84,10 +84,22 @@ Welcome to my personal Web Development repository! This repository tracks my lea
 ├── 📁 css
 │   └── 🎨 js.css
 ├── 📁 html
+│   ├── 📁 API
+│   │   └── 🌐 index.html
+│   ├── 📁 Canvas
+│   │   └── 🌐 canvas.html
 │   ├── 📁 Map_Img
 │   │   ├── 🌐 index.html
 │   │   ├── 🌐 laptop.html
 │   │   └── 🌐 mobile.html
+│   ├── 📁 Plugins
+│   │   ├── 🌐 demo.html
+│   │   └── 🌐 plugin.html
+│   ├── 📁 Video
+│   │   ├── 🎬 Video Project.mp4
+│   │   └── 🌐 video.html
+│   ├── 📁 Youtube_Videos_In_HTML
+│   │   └── 🌐 video.html
 │   ├── 🌐 First_css_line_in_html.html
 │   ├── 🌐 form.html
 │   ├── 🌐 form_learning.html
